@@ -1,1 +1,0 @@
-# ronhyman.github.io
