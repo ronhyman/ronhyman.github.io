@@ -8,6 +8,31 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
+.column {
+  float: left;
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 body {
   font-family: "Nunito";
   color: #0d1e2d;
@@ -33,7 +58,7 @@ h6,
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 5rem 0;
 }
 
 .filters a {
